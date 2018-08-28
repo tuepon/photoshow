@@ -14,4 +14,5 @@
 Route::get('/', 'AlbumsController@index');
 Route::get('/albums', 'AlbumsController@index');
 Route::get('/albums/create', 'AlbumsController@create');
-Route::put('/albums/store', 'AlbumsController@store');
+Route::get('/albums/store', 'AlbumsController@store');
+Route::post('/albums/store', 'AlbumsController@store');
