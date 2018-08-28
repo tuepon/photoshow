@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+
 class AlbumsController extends Controller
 {
     public function index(){
@@ -12,5 +13,9 @@ class AlbumsController extends Controller
 
     public function create(){
         return view('albums.create');
+    }
+
+    public function store(Request $request){
+        return;
     }
 }
