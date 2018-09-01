@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+// Add following Facades 
+use Illuminate\Support\Facades\Storage;
 use App\Photo;
 
 class PhotosController extends Controller
